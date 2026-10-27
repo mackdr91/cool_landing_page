@@ -1,0 +1,57 @@
+@import "tailwindcss";
+
+@layer base {
+  body {
+    font-family: 'Space Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+  code, pre, .font-mono {
+    font-family: 'Fira Code', monospace;
+  }
+}
+
+/* Custom Cyberpunk & Matrix Neon Utilities */
+.neon-glow-lime {
+  text-shadow: 0 0 10px rgba(163, 230, 53, 0.7), 0 0 20px rgba(132, 204, 22, 0.5), 0 0 40px rgba(101, 163, 13, 0.3);
+}
+
+.box-glow-lime {
+  box-shadow: 0 0 15px -3px rgba(163, 230, 53, 0.25), 0 0 6px -2px rgba(132, 204, 22, 0.35);
+}
+
+.box-glow-lime-lg {
+  box-shadow: 0 0 35px -5px rgba(163, 230, 53, 0.35), 0 0 15px -2px rgba(132, 204, 22, 0.5);
+}
+
+.border-neon {
+  border-color: rgba(163, 230, 53, 0.4);
+}
+
+/* Subtle CRT Scanline overlay */
+.scanlines {
+  background: linear-gradient(
+    to bottom,
+    rgba(255,255,255,0),
+    rgba(255,255,255,0) 50%,
+    rgba(0, 0, 0, 0.3) 50%,
+    rgba(0, 0, 0, 0.3)
+  );
+  background-size: 100% 4px;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: #050807;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #14532d;
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #22c55e;
+}
