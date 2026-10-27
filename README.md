@@ -1,31 +1,21 @@
-# NEURONEX // Cyber-Defense & DevSecOps Platform
+# Matrix Rain Landing Page
 
-A modern, high-performance landing page featuring an authentic lime-green Matrix digital rain background, glassmorphic UI, live interactive terminal emulator, and responsive feature showcases.
+A minimal, cool landing page featuring the official **Matrix Rain** component from [Componentry](https://componentry.dev/docs/components/matrix-rain) as the background of the first fold in lime green (`#32CD32`).
 
 ## Features
-- **Interactive Lime Green Matrix Rain**: Dynamic HTML5 Canvas animation featuring Katakana glyphs, ASCII numerals, and fluctuating digital streams with trail fades and bright leading glyphs.
-- **Interactive Security Terminal**: Real-time terminal emulator with simulated security scanning, penetration testing command execution, and live typing animations.
-- **Glassmorphic Cyberpunk Interface**: Ultra-slick, backdrop-filtered command modules, glowing neon borders, and cybernetic badges.
-- **Core Capabilities Grid**: Deep inspection into autonomous threat neutralization, binary zero-day detection, runtime memory shielding, and continuous compliance auditing.
-- **Responsive & Performant**: Fully responsive layout optimized with React 19, Vite, and Tailwind CSS.
+- **Componentry Matrix Rain**: Integrated directly from `@componentry/matrix-rain` ([`src/components/ui/matrix-rain.tsx`](file:///Users/r3il1re/Code/cool_landing_page/src/components/ui/matrix-rain.tsx))
+- **Lime Green Colorway**: Custom `fixedColor="#32CD32"` configuration with canvas resizing observer and trail fading.
+- **Minimalist Cyber Hero**: Clean hero fold with fast documentation links and quick-copy CLI snippet.
 
-## Getting Started
+## Development
 
-### Prerequisites
-- Node.js >= 18
-- npm or yarn
-
-### Installation
 ```bash
 npm install
-```
-
-### Development
-```bash
 npm run dev
 ```
 
-### Production Build
+## Production Build
+
 ```bash
 npm run build
 ```
